@@ -27,6 +27,13 @@ const skills = [
       "Long-lived credential that silently reissues short-lived access tokens after expiry. Paired with token rotation — old tokens are invalidated on use, enabling replay detection.",
     tags: ["Rotation", "Revocation", "Silent Refresh"],
   },
+  {
+    title: "Data Structures & Algorithms",
+    emoji: "🧩",
+    description:
+      "Core DSA fundamentals — arrays, linked lists, trees, hash tables, graphs, and complexity analysis. Building a reference vault in Obsidian as I learn.",
+    tags: ["dsa", "learning"],
+  },
 ];
 
 export default function Home() {
