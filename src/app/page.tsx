@@ -28,6 +28,34 @@ const skills = [
     tags: ["Rotation", "Revocation", "Silent Refresh"],
   },
   {
+    title: "Go Backend Architecture",
+    emoji: "🏗️",
+    description:
+      "Handler → Service → Repository pattern with constructor injection. Implicit interface satisfaction — signatures must match exactly. No DI frameworks needed.",
+    tags: ["Clean Architecture", "DI", "Interfaces"],
+  },
+  {
+    title: "sqlx & PostgreSQL",
+    emoji: "🗄️",
+    description:
+      "sqlx extends database/sql with Get(), Select(), NamedExec(). PostgreSQL placeholders use $1, $2 — not 1$, 2$. Sequences power SERIAL auto-increment. Always use RETURNING id to capture generated IDs.",
+    tags: ["sqlx", "PostgreSQL", "Sequences"],
+  },
+  {
+    title: "i18n & Validation",
+    emoji: "🌐",
+    description:
+      "Multi-language APIs with go-i18n and YAML locale files (en/km/zh). Translation keys are case-sensitive — one letter off = silent failure. go-playground/validator with custom error translation per language.",
+    tags: ["i18n", "Validation", "YAML"],
+  },
+  {
+    title: "Error Handling Patterns",
+    emoji: "🐛",
+    description:
+      "Always use comma-ok for type assertions (x, ok := y.(T)) — bare assertions panic on nil. Error wrapping with fmt.Errorf(\"context: %w\", err) preserves the full chain. := vs = — know when you're declaring vs assigning.",
+    tags: ["Error Wrapping", "Type Safety", "Debugging"],
+  },
+  {
     title: "Data Structures & Algorithms",
     emoji: "🧩",
     description:
